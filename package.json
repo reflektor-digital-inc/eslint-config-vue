@@ -1,0 +1,58 @@
+{
+  "name": "eslint-config-vue",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Vue projects at Reflektor",
+  "keywords": [
+    "reflektor",
+    "reflektor digital",
+    "eslint",
+    "eslint config",
+    "vue",
+    "vuejs",
+    "best practices"
+  ],
+  "main": "index.js",
+  "author": "Reflektor Digital Inc.",
+  "contributors": [
+    {
+      "name": "William To",
+      "url": "https://github.com/wlto"
+    }
+  ],
+  "license": "MIT",
+  "repository": "git@github.com:reflektor-digital-inc/eslint-config-vue.git",
+  "bugs": {
+    "url": "https://github.com/reflektor-digital-inc/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/reflektor-digital-inc/eslint-config-vue#readme",
+  "engines": {
+    "yarn": ">=1.22"
+  },
+  "scripts": {
+    "test": "eslint . -c ./.eslintrc.js",
+    "prepare": "husky install",
+    "preinstall": "node scripts/preinstall",
+    "pre-commit": "echo \"\nRunning Husky 🐶\n\" && lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-vue": "^8.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-vue": "^8.1.1",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2"
+  }
+}
