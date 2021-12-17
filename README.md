@@ -37,6 +37,14 @@ module.exports = {
 };
 ```
 
+## Guidelines
+
+- [Code of Conduct](./docs/CODE_OF_CONDUCT.md)
+- [Contributing](./docs/CONTRIBUTING.md)
+- [Code Review](./docs/CODE_REVIEW.md)
+- [Git Standards](./docs/GIT_STANDARDS.md)
+- [Pull Request Template](./docs/PULL_REQUEST_TEMPLATE.md)
+
 ## License
 
 [MIT License](./LICENSE.md)
