@@ -13,6 +13,7 @@ module.exports = {
     'import'
   ],
   extends : [
+    'eslint:recommended',
     'plugin:vue/vue3-recommended',
     'plugin:import/recommended'
   ],
@@ -175,18 +176,14 @@ module.exports = {
       ]
     }]
   },
-  'overrides' : [
+  overrides : [
     {
       'files' : ['*.vue'],
       'rules' : { 'indent' : 'off' }
-    },
-    {
-      'files' : ['server/**/*.js'],
-      'rules' : { 'no-console' : ['error', { 'allow' : ['info', 'warn', 'error'] }] }
     }
   ],
-  'globals'  : { 'defineProps' : true },
-  'settings' : {
+  globals  : { 'defineProps' : true },
+  settings : {
     'import/resolver' : {
       'alias' : {
         'map' : [
