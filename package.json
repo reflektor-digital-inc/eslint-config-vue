@@ -26,8 +26,9 @@
   },
   "homepage": "https://github.com/reflektor-digital-inc/eslint-config-vue#readme",
   "engines": {
-    "yarn": ">=1.22"
+    "yarn": ">=3.1.1"
   },
+  "packageManager": "yarn@3.1.1",
   "scripts": {
     "test": "eslint . -c ./.eslintrc.js",
     "prepare": "husky install",
