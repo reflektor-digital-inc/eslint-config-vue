@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-vue",
   "version": "1.0.0",
-  "description": "ESLint configuration for Vue projects at Reflektor",
+  "description": "ESLint configuration for Vue projects at Reflektor Digital.",
   "keywords": [
     "reflektor",
     "reflektor digital",

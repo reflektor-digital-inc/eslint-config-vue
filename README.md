@@ -1,6 +1,6 @@
 # eslint-config-vue
 
-This is the ESLint configuration for Vue projects at Reflektor Digital.
+ESLint configuration for Vue projects at Reflektor Digital.
 
 ## What's inside this config?
 
