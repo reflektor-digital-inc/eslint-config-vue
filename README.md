@@ -12,13 +12,13 @@ This is the ESLint configuration for Vue projects at Reflektor Digital.
 ## Installation
 
 ```
-yarn add @reflektor/eslint-config-vue
+yarn add @reflektor/eslint-config-vue -D
 ```
 
 ESLint only exports the configuration from this package and not the dependencies. Hence, in order to use this config, **we'll also need to install the dependencies separately**.
 
 ```
-yarn add eslint eslint-import-resolver-alias eslint-plugin-import eslint-plugin-vue
+yarn add eslint eslint-import-resolver-alias eslint-plugin-import eslint-plugin-vue -D
 ```
 
 ## Usage
