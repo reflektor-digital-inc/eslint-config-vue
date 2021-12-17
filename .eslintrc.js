@@ -5,7 +5,8 @@ module.exports = {
   },
   env : {
     'browser' : true,
-    'node'    : true
+    'node'    : true,
+    'es6'     : true
   },
   plugins : [
     'vue',
@@ -15,22 +16,6 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:import/recommended'
   ],
-  overrides : [
-    {
-      'files' : ['*.vue'],
-      'rules' : { 'indent' : 'off' }
-    }
-  ],
-  settings : {
-    'import/resolver' : {
-      'alias' : {
-        'map' : [
-          ['@', './src'],
-          ['@/*', './src/*']
-        ]
-      }
-    }
-  },
   rules : {
     /*
      * BASE
