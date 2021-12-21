@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vue",
+  "name": "@reflektor/eslint-config-vue",
   "version": "1.0.0",
   "description": "ESLint configuration for Vue projects at Reflektor Digital.",
   "keywords": [
