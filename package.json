@@ -25,13 +25,9 @@
     "url": "https://github.com/reflektor-digital-inc/eslint-config-vue/issues"
   },
   "homepage": "https://github.com/reflektor-digital-inc/eslint-config-vue#readme",
-  "engines": {
-    "yarn": ">=1.22"
-  },
   "scripts": {
     "test": "eslint . -c ./.eslintrc.js",
     "prepare": "husky install",
-    "preinstall": "node scripts/preinstall",
     "pre-commit": "echo \"\nRunning Husky 🐶\n\" && lint-staged"
   },
   "lint-staged": {
